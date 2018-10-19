@@ -7,17 +7,40 @@ image: /assets/images/placeholder-15.jpg
 author: Thomas Vaeth
 ingredients: 
 - 1 pound navy bean
-- 1 cup maple syrup 
-- 1/2 cup Ketchup
+- 1/2 cup maple syrup 
+- 1 tbsp cup Ketchup
 - 1 tsp white viengr
-- 1 tsp mustard powder
-- 1 yellow onion
+- 1/2 tsp mustard powder
+- 1 small yellow onion
 - Bacon (Optional)
 - salt and pepper
-Prepartion time: 1 night or until your bean is fully soaked
-Cooking timee: 5 hours
+
+prepartion_time: 1 night or until bean is pulled
+cooking_time: 5 hours
+
+easier_way:
+  1. Follow the step 1 - 2 below
+  2. Put it in a slow cooker on low heat
+  3. Cook for 8 hours 
+  4. Check and stir. Add water as needed
+  5. Put your bean in an  oven safe dish with bacon on top or until bacon is cooked
+
+
+tips:
+  1. Remove the lid if you find it is still too much liquid after 2 hours
+  2. You can make it a night before, and bake it with bacon on top before your meal
+
 tags:
-  - Squid
+  - Bean
+  - Canadian
+  - Sweet
+  - Winter
+  - Breakfast
+  - Lunch
+  - Dinner
+  - Student
+  - Cheap
+  - Vegetarians 
 
 
 ---
@@ -25,8 +48,26 @@ Baked bean is one of my comfort food that I will put it on toast and rice. I eat
 
 His sister made a big pot of baked bean and put bacon on top. It looks amazing and delicous because I tasted it. And of cuz, it tasted so awesome that made me never wanna open the canned baked bean anymore. 
 
+ingredients: 
+* 1 pound navy bean
+* 1/2 cup maple syrup 
+* 1 tbsp cup Ketchup
+* 1 tsp white viengr
+* 1/2 tsp mustard powder
+* 1 small yellow onion
+* Bacon (Optional)
+* salt and pepper
 
-![Placeholder](/assets/images/placeholder-20.jpg)
+direction: 
+  1. Wash bean and soak in water overnight or until pulled
+  2. Boiled bean with chopped onion for 1  hour
+  3. Preheat oven for 325 degrees
+  4. Add remaining ingredients and bake it in a covered pan for 3 - 4 hours
+  5. Check and stir. Add water as needed
+  6. Put bacon on top, then bake for 45 minutes or until bacon is cooked
+
+
+![Placeholder](/assets/images/placeholder-20.jpg#full)
 
 Jean shorts pour-over chicharrones woke. Kinfolk next level chia master cleanse. Messenger bag green juice tumeric trust fund pour-over vegan. Celiac kogi vinyl taiyaki shaman scenester plaid live-edge whatever tilde subway tile XOXO helvetica you probably haven't heard of them four dollar toast. Knausgaard franzen mumblecore normcore microdosing. Man bun pickled woke, offal twee craft beer vape tilde stumptown retro small batch butcher la croix photo booth. 
 
@@ -36,7 +77,7 @@ Chicharrones locavore fashion axe activated charcoal, salvia heirloom jianbing p
 
 Hella gastropub dreamcatcher tumblr lumbersexual kinfolk. Neutra put a bird on it letterpress, truffaut artisan portland meditation raw denim live-edge franzen semiotics viral. Neutra selfies knausgaard green juice raclette. Blue bottle disrupt 8-bit coloring book farm-to-table seitan. Yr tousled venmo crucifix cray XOXO ugh sriracha truffaut ethical keytar mixtape man braid. Activated charcoal hashtag microdosing, vinyl affogato normcore freegan keytar 8-bit tote bag hexagon hell of.
 
-![Placeholder](/assets/images/placeholder-23.jpg#full)
+![Placeholder](/assets/images/placeholder-23.jpg)
 
 Flannel distillery asymmetrical 3 wolf moon sriracha palo santo food truck everyday carry activated charcoal try-hard meggings tofu keytar. Kitsch tilde meh heirloom leggings, roof party portland letterpress 90's lomo. Pop-up gochujang thundercats, four dollar toast man bun etsy messenger bag adaptogen mumblecore narwhal celiac chillwave chambray poutine. Vaporware craft beer occupy tattooed authentic cray. Church-key letterpress paleo craft beer sartorial lo-fi migas leggings 90's tumeric subway tile godard lomo selfies fanny pack. Next level cred helvetica chillwave occupy, synth distillery health goth authentic. 
 

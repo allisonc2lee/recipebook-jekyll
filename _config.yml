@@ -1,30 +1,29 @@
 # Site/SEO settings
-email: okay@samesies.io
+email: contactme@chingchinglee.com
 baseurl: ""
 paginate: 12
 paginate_path: "/page/:num"
 permalink: /:year/:month/:day/:title/
 google_analytics: 
 
-name: Thomas Vaeth
-title: The Barber Theme
+name: Ching Ching
+title: Cook it!
 description: >
-  Barber is a blog theme for Jekyll built by Thomas Vaeth for Samesies using HTML, Sass, and JavaScript.
+  I love food. And I love sharing my recipes to you.
 url: http://barber.samesies.io
-twitter_username: thomasvaeth
+twitter_username: chingchinglcc
 default_img: /assets/images/seo.jpg
 social:
   - name: twitter
-    url: https://twitter.com/thomasvaeth
+    url: https://twitter.com/chingchinglcc
   - name: instagram
-    url: https://www.instagram.com/thomas.vaeth/
+    url: https://www.instagram.com/the_diary_of_allison
   - name: linkedin
-    url: https://www.linkedin.com/in/thomasvaeth/
+    url: https://www.linkedin.com/in/ching-ching-lee-235551a5/
   - name: github
-    url: https://github.com/samesies
+    url: https://github.com/chingchinglcc/
   - name: codepen
-    url: https://codepen.io/thomasvaeth/
-
+    url: https://codepen.io/allisonching/
 # Contact settings
 contact_img: /assets/images/placeholder-28.jpg
 formcarry: https://formcarry.com/s/HkIo0nMb7
