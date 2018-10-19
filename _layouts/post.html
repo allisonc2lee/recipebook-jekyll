@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post book">
   <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="post__header section-padding--double">
       <div class="grid-small">
@@ -33,18 +33,18 @@ layout: default
                 </ul>
               </div>
     
-              <div id="prepartion_times" class="post__list time">
-                  <h2 class="time__headline headline">Prepartion</h2>
-                  <p>{{ page.prepartion_time }}</p>
-              </div>
-    
-              <div id="cooking_time" class="post__list time">
-                  <h2 class="time__headline headline">Prepartion</h2>
-                  <p>{{ page.cooking_time }}</p>
+              <div id="times" class="post__list time">
+                  <h2 class="time__headline headline">Time</h2>
+                  <div class="time__detail list_spacing">
+                    <p class="subheadline">Prepartion:</p>
+                    <p>{{ page.prepartion_time }}</p>
+                    <p class="subheadline">Cooking:</p>
+                    <p>{{ page.cooking_time }}</p>
+                  </div>
               </div>
     
               <div id="steps" class="post__list steps">
-                  <h2 class="step__headline headline">Ingredients</h2>
+                  <h2 class="step__headline headline">Steps:</h2>
                 <ul class="list_spacing">
                     {% for step in page.steps %}
                     <li>{{ step }}</li>

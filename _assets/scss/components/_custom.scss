@@ -1,0 +1,27 @@
+.post {
+    .section__subcontent {
+        border: 1px solid rgba(0,0,0,.1);
+        padding:  20px;
+    }
+
+    .headline {
+        color: #fff;
+        padding: 25px 100px;
+        text-align: center;
+        background: #070707;
+        margin-bottom: 1.5rem;
+    }
+
+    .subheadline {
+        font-weight: bold;
+    }
+    
+    .list_spacing {
+        margin: 2.5rem;
+    }
+
+    .time__detail {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
