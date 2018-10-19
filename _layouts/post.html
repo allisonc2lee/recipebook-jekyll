@@ -22,11 +22,61 @@ layout: default
     <div class="post__content section-padding">
       <div class="grid">
         <div id="markdown" itemprop="articleBody">
-           <p>{{ page.ingredients }}</p>
-            {{ page.prepartion_time }}
-            {{ page.cooking_time }}
-            {{ page.direction }}
-            {{content}}
+          <div class="section-padding">
+            <div id="subcontentDirection" class="section__subcontent">
+              <div id="ingredients" class="post__list">
+                <h2 class="ingredients__headline headline">Ingredients</h2>
+                <ul class="list_spacing">
+                    {% for ingredient in page.ingredients %}
+                    <li>{{ ingredient }}</li>
+                    {% endfor %}
+                </ul>
+              </div>
+    
+              <div id="prepartion_times" class="post__list time">
+                  <h2 class="time__headline headline">Prepartion</h2>
+                  <p>{{ page.prepartion_time }}</p>
+              </div>
+    
+              <div id="cooking_time" class="post__list time">
+                  <h2 class="time__headline headline">Prepartion</h2>
+                  <p>{{ page.cooking_time }}</p>
+              </div>
+    
+              <div id="steps" class="post__list steps">
+                  <h2 class="step__headline headline">Ingredients</h2>
+                <ul class="list_spacing">
+                    {% for step in page.steps %}
+                    <li>{{ step }}</li>
+                    {% endfor %}
+                </ul>
+              </div>
+    
+              {% if page.easier_way %}
+              <div id="easyway" class="post__list steps">
+                  <h2 class="step__headline headline">Easier Way</h2>
+                  <p>If you feel the traditional cooking method for this recipe is absolutely too complicated.
+                    No worry! Here is the easier way:
+                  </p>
+                  <ul class="list_spacing">
+                      {% for easystep in page.easier_steps %}
+                      <li>{{ easystep }}</li>
+                      {% endfor %}
+                  </ul>
+              </div>
+              {% endif %}
+    
+              <div id="tips" class="post__list tips">
+                <h2 class="tip__headline headline">Tips</h2>
+                <ul class="list_spacing">
+                    {% for tip in page.tips %}
+                    <li>{{ tip }}</li>
+                    {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+          {{ page.content }}
         </div>
 
         {% include share.html %}

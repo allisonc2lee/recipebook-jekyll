@@ -24,6 +24,7 @@ social:
     url: https://github.com/chingchinglcc/
   - name: codepen
     url: https://codepen.io/allisonching/
+
 # Contact settings
 contact_img: /assets/images/placeholder-28.jpg
 formcarry: https://formcarry.com/s/HkIo0nMb7
@@ -37,9 +38,10 @@ mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 
 # Author settings
 author:
-  - name: Thomas Vaeth
-    bio: Thomas Vaeth was born in New York, raised in Pennsylvania, and transplanted in Washington. He was a Web Developer at Urban Influence, but now he's a Software Engineer at Getty Images.
-    url: http://thomasvaeth.com
+  - name: Ching Ching Le
+    bio:  I was born in Hong Kong, my mum is Thai and my dad is Hong Kong. I spent my childhood in Chiang Mai Thailand, then moved back to Hong Kong. And I am in Calgary, Canada now.
+          I am geek developer who loves CSS, and always wanna be a CSS Ninja. If I am not coding and watching animation, then I am cooking.
+    url: http://chingchinglee.com
 
 # Build settings
 markdown: kramdown
