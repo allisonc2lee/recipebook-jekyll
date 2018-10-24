@@ -1,7 +1,8 @@
 ---
-layout: review
+layout: page
 title: "Review Template"
-date: 2017-10-08
+type: "foodreview"
+date: 2018-10-23
 description: this is the review template
 image: /assets/images/placeholder-11.jpg
 author: Ching Ching Lee

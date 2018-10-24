@@ -1,0 +1,13 @@
+<article class="posts__post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+    <ul>
+        {% for page in site.pages %}
+            {% if review.type == 'foodreview' %}
+            <li>
+                <a href="{{ page.url }}"><h2 class="posts__text"><strong itemprop="name">{{ page.title }}</strong></a>
+                <p>{{ page.description }}</p>
+            </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</article>
+  
