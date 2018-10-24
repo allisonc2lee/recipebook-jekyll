@@ -52,6 +52,10 @@
 @import 'base/_media';
 @import 'base/_typography';
 
+// add custom breakpoint and mixin
+@import 'base/_setting';
+@import 'base/_responsive';
+
 //----------------------------------------------   
 // Vendor
 //----------------------------------------------  
@@ -76,8 +80,6 @@
 @import 'components/_subscribe';
 @import 'components/_zoom';
 
-@import 'components/_custom';
-
 //----------------------------------------------   
 // Utils
 //---------------------------------------------- 
@@ -86,5 +88,11 @@
 @import 'utils/_helpers-grid';
 @import 'utils/_helpers';
 @import 'utils/_page-transitions';
+
+//----------------------------------------------   
+// CUSTOM
+//---------------------------------------------- 
+@import 'layouts/_recipe';
+@import 'layouts/_reviews';
 
 
