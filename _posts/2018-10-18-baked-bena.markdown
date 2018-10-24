@@ -2,9 +2,9 @@
 layout: post
 title: "Grandma Baked Bean"
 date: 2017-10-08
-description: My stepdad's comfort food.
+description: Stepdad's comfort food.
 image: https://source.unsplash.com/W3cKs5KeT2c/1600x900
-author: Thomas Vaeth
+author: Ching Ching Lee
 ingredients: 
 - 1 pound navy bean
 - 1/2 cup maple syrup 

@@ -1,0 +1,12 @@
+<article class="posts__post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+<a class="posts__link" href="{{ review.url | prepend: site.baseurl }}" itemprop="url">
+    {% if review.image %}
+    <figure class="posts__img">
+        <img src="{{ review.image }}" alt="{{ review.title }}" data-aos="fade-in" itemprop="image"/>
+    </figure>
+    {% endif %}
+    <div>
+    <h2 class="posts__text"><strong itemprop="name">{{ review.title }}</strong> — <span itemprop="description">{{ review.content | strip_html | truncatewords: 35, "" }}</span></h2>
+    </div>
+</a>
+</article>
