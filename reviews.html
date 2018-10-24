@@ -6,22 +6,19 @@ permalink: /foodreview
 ---
 
 {% for review in site.reviews %}    
-    <div class="item">
-        <div class="inner">
-            <p class="category">{{ review.category }}</p>
-            <h3>{{ review.title }}</h3>
-            <p class="description">{{ review.description }}</p>
-            <a class="read-more" href="{{ review.url }}">Read More</a>
-        </div>
-    </div>
-    <div class="item item__image">
-      <figure>
-        {% if review.image %}
-        <img src="{{ review.image }}" alt="{{ review.title }}">
-        {% else %}
-        <img src="/assets/images/food-placeholder.png" alt="{{ review.title }}">
-        {% endif %}
-      </figure>
-    </div>
-
+<div class="page--grid">
+  <div class="item">
+      <div class="inner">
+          <p class="category">{{ review.category }}</p>
+          <h3>{{ review.title }}</h3>
+          <p class="description">{{ review.description }}</p>
+          <a class="read-more" href="{{ review.url }}">Read More</a>
+      </div>
+  </div>
+  {% if review.image %}
+  <img class="review__img" src="{{ review.image }}" alt="{{ review.title }}">
+  {% else %}
+  <img class="review__img" src="/assets/images/food-placeholder.png" alt="{{ review.title }}">
+  {% endif %}
+</div>
 {% endfor %}    

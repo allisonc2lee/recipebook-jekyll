@@ -11,3 +11,8 @@ $XL: 1920px;
 $fixed-width: false !default;
 $fixed-height: false !default;
 $screen: 'only print, screen';
+
+// for the reviews collection page
+// layouts/reviews
+$grid_gap-column: 30px;
+$grid_review-row: 250px; 
