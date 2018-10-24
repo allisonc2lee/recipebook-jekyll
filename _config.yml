@@ -61,3 +61,17 @@ exclude:
   - gulpfile.js
   - package.json
   - README.md
+
+  # Collections
+collections:
+  reviews:
+    output: true
+    permalink: /reviews/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: foodreview
+    values:
+      layout: review

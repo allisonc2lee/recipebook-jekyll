@@ -1,12 +1,16 @@
 ---
-layout: default
+layout: page
 title: Food Reviews
 permalink: /foodreview
 ---
 
-<section class="mast section-padding--double">
-  <div class="grid-small">
-    <h2>{{ page.title }}</h1>
-    <!-- {% include  review-list.html type='foodreview' %} -->
-  </div>
-</section>
+{% for review in site.reviews %}    
+    <div class="item">
+        <div class="inner">
+            <p class="category">{{ review.category }}</p>
+            <h3>{{ review.title }}</h3>
+            <p class="description">{{ review.description }}</p>
+            <a class="read-more" href="{{ career.url }}">Read More</a>
+        </div>
+    </div>
+{% endfor %}    

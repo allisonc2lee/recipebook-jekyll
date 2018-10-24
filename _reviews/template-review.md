@@ -3,9 +3,12 @@ layout: page
 title: "Review Template"
 type: "foodreview"
 date: 2018-10-23
-description: this is the review template
+description: this is a burger review template
 image: /assets/images/placeholder-11.jpg
 author: Ching Ching Lee
+
+category: Fast Food
+
 specials:
 - Burger
 - Hotdog
