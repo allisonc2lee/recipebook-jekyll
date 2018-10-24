@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Food Reviews
+description: Let's talk about food.
 permalink: /foodreview
 ---
 
@@ -10,7 +11,17 @@ permalink: /foodreview
             <p class="category">{{ review.category }}</p>
             <h3>{{ review.title }}</h3>
             <p class="description">{{ review.description }}</p>
-            <a class="read-more" href="{{ career.url }}">Read More</a>
+            <a class="read-more" href="{{ review.url }}">Read More</a>
         </div>
     </div>
+    <div class="item item__image">
+      <figure>
+        {% if review.image %}
+        <img src="{{ review.image }}" alt="{{ review.title }}">
+        {% else %}
+        <img src="/assets/images/food-placeholder.png" alt="{{ review.title }}">
+        {% endif %}
+      </figure>
+    </div>
+
 {% endfor %}    
