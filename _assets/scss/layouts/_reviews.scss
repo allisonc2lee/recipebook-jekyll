@@ -1,0 +1,27 @@
+#markdown>* {
+    min-width: 80%;
+    width: 80%;
+    @include respond-min($S) {
+        min-width: 100%;
+        width: 100%;
+    }
+}
+
+.page--grid {
+    padding: 3em 0;
+    @include respond-min($S) {
+        display: grid!important;
+        grid-template-columns: 3fr 2fr;
+        grid-template-rows: $grid_review-row;
+        grid-gap: 0 $grid_gap-column;
+    }
+}
+
+.review__img {
+    margin: 0 auto;
+    @include respond-min($S) {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
