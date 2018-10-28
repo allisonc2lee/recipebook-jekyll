@@ -3,5 +3,5 @@
 }
 
 .active {
-    color: $active_link;
+    color: rgba($color: $active_link, $alpha: .8) !important;
 }

@@ -1,7 +1,21 @@
-<nav>
+<!-- <nav>
   <ul class="header__list">
     <li><a href="{{ '/' | prepend: site.baseurl }}">Recipes</a></li>
     <li><a href="{{ '/foodreview' | prepend: site.baseurl }}">Reviews</a></li>
     <li><a href="{{ '/aboutme' | prepend: site.baseurl }}">About</a></li>
+  </ul>
+</nav>
+
+ -->
+<nav>
+  <ul class="header__list">
+    {% for item in site.docs %}
+        <li>
+          <a 
+          href="{{ item.url | prepend: site.baseurl }}" 
+          alt="{{ item.title }}" 
+          class="{% if item.url == page.url %}active{% endif %}">{{ item.title }}</a>
+        </li>
+    {% endfor %}
   </ul>
 </nav>
