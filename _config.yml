@@ -62,7 +62,18 @@ exclude:
   - package.json
   - README.md
 
-  # Collections
+# Navigation
+docs:
+- title: Recipes
+  url: /
+
+- title: Reviews
+  url: /foodreview
+
+- title: About
+  url: /aboutme
+
+# Collections
 collections:
   reviews:
     output: true
