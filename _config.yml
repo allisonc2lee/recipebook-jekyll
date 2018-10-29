@@ -1,6 +1,6 @@
 # Site/SEO settings
 email: contactme@chingchinglee.com
-baseurl: "gh-pages"
+baseurl: ""
 paginate: 12
 paginate_path: "/page/:num"
 permalink: /:year/:month/:day/:title/
