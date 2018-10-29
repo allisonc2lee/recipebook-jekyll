@@ -1,6 +1,6 @@
 # Site/SEO settings
 email: contactme@chingchinglee.com
-baseurl: ""
+baseurl: /recipebook-jekyll
 paginate: 12
 paginate_path: "/page/:num"
 permalink: /:year/:month/:day/:title/
@@ -68,7 +68,7 @@ sass:
 # Navigation
 docs:
 - title: Recipes
-  url: 
+  url: /
 
 - title: Reviews
   url: /foodreview
