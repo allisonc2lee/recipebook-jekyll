@@ -65,13 +65,13 @@ exclude:
 # Navigation
 docs:
 - title: Recipes
-  url: /
+  url: site.baseurl/
 
 - title: Reviews
-  url: /foodreview
+  url: site.baseurl/foodreview
 
 - title: About
-  url: /aboutme
+  url: site.baseurl/aboutme
 
 # Collections
 collections:
