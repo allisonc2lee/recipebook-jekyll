@@ -24,10 +24,6 @@ social:
   - name: codepen
     url: https://codepen.io/allisonching/
 
-# Server
-source: src
-destination: _site
-
 # Contact settings
 contact_img: /assets/images/placeholder-28.jpg
 formcarry: https://formcarry.com/s/HkIo0nMb7
