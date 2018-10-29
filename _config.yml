@@ -67,10 +67,10 @@ docs:
   url: 
 
 - title: Reviews
-  url: /foodreview
+  url: baseurl/foodreview
 
 - title: About
-  url: /aboutme
+  url: baseurl/aboutme
 
 # Collections
 collections:
