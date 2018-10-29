@@ -9,7 +9,7 @@ name: Ching Ching
 title: Code And Cook
 description: 
   I love food. And I love sharing my recipes to you.
-url: https://chingchinglcc.github.io/recipebook-jekyll/
+url: https://chingchinglcc.github.io/recipebook-jekyll
 twitter_username: chingchinglcc
 default_img: /assets/images/seo.jpg
 social:
@@ -67,10 +67,10 @@ docs:
   url: 
 
 - title: Reviews
-  url: baseurl/foodreview
+  url: /foodreview
 
 - title: About
-  url: baseurl/aboutme
+  url: /aboutme
 
 # Collections
 collections:
