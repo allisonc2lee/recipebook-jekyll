@@ -1,6 +1,6 @@
 # Site/SEO settings
 email: contactme@chingchinglee.com
-baseurl: ""
+baseurl: "gh-pages"
 paginate: 12
 paginate_path: "/page/:num"
 permalink: /:year/:month/:day/:title/
@@ -9,7 +9,7 @@ name: Ching Ching
 title: Code And Cook
 description: 
   I love food. And I love sharing my recipes to you.
-url: http://barber.samesies.io
+url: https://chingchinglcc.github.io/recipebook-jekyll/
 twitter_username: chingchinglcc
 default_img: /assets/images/seo.jpg
 social:
