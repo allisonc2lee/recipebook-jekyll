@@ -66,6 +66,9 @@ exclude:
   - package.json
   - README.md
 
+sass:
+  add_charset: true
+
 # Navigation
 docs:
 - title: Recipes
