@@ -4,7 +4,6 @@ baseurl: ""
 paginate: 12
 paginate_path: "/page/:num"
 permalink: /:year/:month/:day/:title/
-google_analytics: 
 
 name: Ching Ching
 title: Code And Cook
